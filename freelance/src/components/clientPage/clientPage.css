@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clientPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    overflow: scroll;
+}
+.container_ClientPage{
+    padding: 2%;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow: scroll;
+    background-color: #e4e5ed;
+    border-radius: 25px;
+    box-shadow: -3px -3px 5px #fff, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+.postbtn{
+    padding: 1%;
+    color: black;
+    background-color: #e4e5ed;
+    border-radius: 15px;
+    box-shadow: -3px -3px 5px #fff, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+.postbtn:hover{
+    background-color: black;
+    color: #e4e5ed;
+}
+.pending, .past{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow-x: scroll;
+}
+.job_clientPage{
+    margin: 1% 0 0 1%;
+    height: 80%;
+    width: 15%;
+    color: black;
+    background-color: #e4e5ed;
+    border-radius: 10px;
+    box-shadow: -3px -3px 5px #fff, 3px 3px 5px rgba(94, 104, 121, 0.288);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.job_clientPage:hover{
+    background-color: black;
+    color: #e4e5ed;
+}
+.jobTitle_clientPage{
+    font-size: 30px;
+    width: 100%;
+    padding: 0 5%;
+    font-weight: 700;
+    text-align: left;
+    overflow: hidden;
+}
+.jobPrice_clientPage{
+    font-size: 35px;
+    font-weight: 700;
+}
+.Label_clientPage{
+    padding-top: 2%;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+.list_clientPage{
+    /* padding: 2% 0 0 2%; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    overflow-x: scroll;
+}
